@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: #121212;
+    height: 4rem;
+    padding: 0rem 1rem 0rem 1.5rem
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 2.1rem;
+    margin-right: 1rem;
+    margin-left: .2rem;
+}
+
+.home-btn {
+    height: 2.9rem;
+    width: 2.9rem;
+    margin-left: .8rem;
+    background-color: #2f2f2f;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    background: #282828;
+    border-radius: 999px;
+    overflow: hidden;
+    height: 45px;
+    width: 29.5rem;
+    margin: 8px 96px 12px 10px;
+}
+.shop{
+    border-left: 1px solid wheat;
+    font-size: 1.5rem;
+    padding-left:.6rem;
+}
+.search-form .icon-btn {
+    margin-left: 1rem;
+    font-weight: 100;
+    opacity: .5;
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.search-input::placeholder {
+    color: #b3b3b3;
+}
+.navbar-right{
+    justify-content: space-evenly;
+    height: 100%;
+}
+.explore-btn,
+.install-btn {
+    font-size: .9rem;
+    background: #fff;
+    border: none;
+    padding: 0.3rem .9rem;
+    font-weight: bold;
+    border-radius: 999px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.install-btn {
+    background: transparent;
+    color: #fff;
+    opacity: 0.5;
+}
+.navbar-right .icon-btn{
+    opacity: .5;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
