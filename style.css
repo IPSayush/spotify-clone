@@ -126,26 +126,6 @@ body {
     display: flex;
     gap: .5rem;
 }
-
-.center-panel{
-    color: #fff;
-    flex: 2.3;
-    height: 5000px;
-    overflow: auto;
-    background-color: #282828;
-    border-radius: 9px;
-}
-.center-panel::-webkit-scrollbar {
-width: .8em;
-}
-
-.center-panel::-webkit-scrollbar-track {
-background: transparent;
-}
-
-.center-panel::-webkit-scrollbar-thumb {
-background-color: #3c3c3c;
-}
 .right-panel{
     height: 100%;
     display: flex;

@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Web Player: Music for everyone</title>
     <link rel="shortcut icon"
         href="data:image/png;base64,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"
         type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="left-pannel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="left-panel.css">
+    <link rel="stylesheet" href="center-panel.css">
 </head>
 
 <body>
@@ -54,7 +56,7 @@
                     <button class="create-playlist-btn">Create Playlist</button>
                 </div>
             </div>
-             <div class="left-div-3">
+            <div class="left-div-3">
                 <div class="l-f-2i">
                     <h6 class="find-podcasts">Let's find some podcasts to follow</h6>
                 </div>
@@ -67,56 +69,89 @@
             </div>
         </div>
         <div class="center-panel">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis veniam, sint, distinctio obcaecati incidunt
-            tenetur necessitatibus praesentium, at natus perspiciatis eius laborum illum. Necessitatibus qui recusandae
-            cum, explicabo iste iusto.
-            Numquam, dicta et! Neque voluptates maiores pariatur corporis aspernatur veniam eligendi blanditiis
-            obcaecati necessitatibus minus possimus, eveniet ullam praesentium. Cupiditate corrupti consectetur ut?
-            Expedita nulla iure repellendus atque ipsam eum!
-            Eaque cumque facilis temporibus quisquam, sapiente beatae iure consequuntur id! Officiis accusantium
-            inventore praesentium aliquam veritatis aperiam non labore dicta reiciendis eum repellat, porro corporis
-            laborum repellendus veniam. Sunt, aliquam.
-            Natus excepturi cum veniam dolorem in error necessitatibus, suscipit perspiciatis neque dolor iste impedit
-            maxime consequuntur illo eos deleniti, eaque quasi ducimus quia numquam! Neque odit doloremque ipsa velit
-            soluta?
-            Veritatis, tempora. Asperiores eius expedita nam? Molestiae corporis unde repudiandae, quam doloribus ex
-            recusandae inventore dolore fuga dicta maiores voluptate eaque modi ducimus iste, tenetur quod consequuntur
-            veritatis natus? In!
-            Perspiciatis officia, sequi quas earum veritatis rem expedita vel eaque harum exercitationem repudiandae
-            fugiat nostrum quia minima nobis? Nam, unde nulla voluptates ea libero tempora totam aut rerum tenetur
-            impedit!
-            Quibusdam perspiciatis eveniet maiores dolor maxime voluptatem nihil magni earum blanditiis. Eos minima,
-            saepe provident sed natus voluptas tempore necessitatibus error velit laboriosam commodi illum! Corrupti
-            labore eos excepturi similique!
-            Beatae voluptate vel unde aspernatur ad culpa doloremque quos, ipsam omnis obcaecati. Vitae similique
-            provident, dolorem deserunt repellendus tempora est magni corrupti sapiente quisquam placeat sit autem quod
-            alias eius?
-            Aliquam dolorem ducimus dolorum consectetur doloribus nostrum eos voluptatibus cumque voluptas enim!
-            Praesentium doloribus debitis, minima ad architecto animi error recusandae ratione, illo reprehenderit
-            laudantium, culpa voluptates eum exercitationem? Consectetur.
-            Laborum, nemo. Velit quam veniam iste eligendi libero assumenda, eum sint, eveniet officiis amet dolorum
-            numquam exercitationem, doloremque voluptate itaque minus cumque tenetur! Quibusdam explicabo omnis, sed
-            nulla odit tempora!
-            Et commodi laboriosam ea, natus odio similique quae nobis maxime atque in! Maiores atque fugit quo, odit
-            nobis consequatur unde incidunt cumque veritatis in iste ea! Voluptatem illo praesentium corrupti.
-            Sequi nulla eligendi illum iste ut facilis quidem magnam, esse consequatur debitis optio deleniti
-            temporibus, excepturi, eum dolorum. Magnam, inventore tempore exercitationem sit sunt quasi placeat vel
-            dolore delectus corporis.
-            Laborum doloribus quis fugiat ut sed. Sapiente ex itaque dolorum vitae laudantium ratione soluta officia quo
-            distinctio culpa, aliquam harum numquam dicta aspernatur odio nisi officiis! Alias minus in aut.
-            Eius labore assumenda ullam doloribus sed, soluta quod optio! Deserunt enim quis tempore accusantium
-            consequuntur at, vero voluptate quae tempora amet minima archit! Atque reprehenderit velit enim, quae minima
-            beatae nisi accusamus ipsa explicabo! Eius quis rem quasi at aperiam a perspiciatis inventore, sequi, libero
-            nemo exercitationem.
-            Id sunt corrupti laboriosam officiis possimus, aperiam nihil quam tenetur itaque, earum, inventore dicta
-            laborum recusandae. Illo ex molestiae nam dignissimos! Odit suscipit error temporibus natus explicabo eos
-            blanditiis in?
-            Qui assumenda, vitae commodi eligendi saepe excepturi veritatis consequatur laborum. Quae nobis placeat
-            saepe, provident id amet optio ea ex nostrum deserunt. Soluta obcaecati non delectus dolor suscipit
-            temporibus iste.
-            Assumenda nulla magnam, nesciunt nostrum nemo repellendus velit ratione harum architecto accusamus iste
-            cumque qui provident amet? Nobis rem doloremque consequuntur itaque dolorum neque nesciunt? Nihil ullam quos
-            porro ducimus!
+            <div class="cp-main-nav">
+                <a href="" class="cp-main-nav-link">All</a>
+                <a href="" class="cp-main-nav-link">Music</a>
+                <a href="" class="cp-main-nav-link">Podcasts</a>
+            </div>
+            <div class="cp-main-content">
+                <div class="top-song-list-left">
+                    <div class="song-info">
+                        <div class="song-img">
+                            <img src="https://i.scdn.co/image/ab67706f000000029cc35d50d0185d9fe90bc029" alt="Song Image"
+                                class="song-img">
+                        </div>
+                        <div class="song-title-div">
+                            <h6 class="song-title">Arijit Singh</h6>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="song-info">
+                        <div class="song-img">
+                            <img src="https://i.scdn.co/image/ab6761610000e5eba0199b159c0c5a9f62333d32" alt="Song Image"
+                                class="song-img">
+                        </div>
+                        <div class="song-title-div">
+                            <h6 class="song-title">Lata Mangeshkar</h6>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="song-info">
+                        <div class="song-img">
+                            <img src="https://i.scdn.co/image/ab67706f000000027c120468e48bf45267071950" alt="Song Image"
+                                class="song-img">
+                        </div>
+                        <div class="song-title-div">
+                            <h6 class="song-title">Nostalgic Hindi music we revisited in 2024</h6>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-song-list-right">
+                    <div class="song-info">
+                        <div class="song-img">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02d30096abb1be88b190f6f518" alt="Song Image"
+                                class="song-img">
+                        </div>
+                        <div class="song-title-div">
+                            <h6 class="song-title">Raaz songs</h6>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="song-info">
+                        <div class="song-img">
+                            <img src="https://i.scdn.co/image/ab67616d0000b273459c4f1a89716e40ed5ff12b" alt="Song Image"
+                                class="song-img">
+                        </div>
+                        <div class="song-title-div">
+                            <h6 class="song-title">Best of Arijit Singh</h6>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="song-info">
+                        <div class="song-img">
+                            <img src="https://i.scdn.co/image/ab67706f000000029cc35d50d0185d9fe90bc029" alt="Song Image"
+                                class="song-img">
+                        </div>
+                        <div class="song-title-div">
+                            <h6 class="song-title">Arijit Singh</h6>
+                        </div>
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="right-panel">
         </div>
