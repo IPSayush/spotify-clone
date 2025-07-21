@@ -117,7 +117,7 @@
 .made-for-left{
     display: flex;
     flex-direction: column;
-    ali
+    align-items: center;
 }
 .made-for-p{
     font-size: .8rem;
