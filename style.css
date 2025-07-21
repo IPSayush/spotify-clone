@@ -126,14 +126,7 @@ body {
     display: flex;
     gap: .5rem;
 }
-.right-panel{
-    height: 100%;
-    display: flex;
-    background-color: #282828;
-    flex: .85;
-    margin-right: .5rem;
-    border-radius: 9px;
-}
+
 .footer{
     height: 5rem;
     width: 100vw;
