@@ -115,7 +115,8 @@
     width: 49%;
 }
 .made-for-left{
-    display: ;
+    display: flex;
+    fl
 }
 .made-for-p{
     font-size: .8rem;
