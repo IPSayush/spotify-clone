@@ -107,7 +107,7 @@
     height: 4rem;
     width: 100%;
     display: flex;
-    ma
+    margin-top: .5rem;
     justify-content: space-between;
 }
 .m-f-div{
