@@ -116,7 +116,7 @@
 }
 .made-for-left{
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
 }
 .made-for-p{
     font-size: .8rem;
