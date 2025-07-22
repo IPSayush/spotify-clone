@@ -1,0 +1,139 @@
+.footer {
+    height: 5rem;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.footer-left {
+    height: 99%;
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 0 1rem;
+    color: white;
+}
+
+.f-l-img-div {
+    height: 90%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.f-l-text-div {
+    height: 98%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 .5rem;
+}
+.f-l-text-div-title{
+    font-size: .9rem;
+    font-weight:400;
+}
+.f-l-text-div-artist{
+    font-size: 0.7rem;
+    color: #b3b3b3;
+}
+.fa-plus{
+    font-size: 0.8rem;
+    color: #b3b3b3;
+}
+.f-l-icon-div {
+    height: 98%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-center {
+    height: 99%;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+.f-c-icon-div{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-span{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #b3b3b3;
+}
+.play-span{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+}
+.f-c-range-div{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: 0.8rem;
+}
+.range{
+    width: 90%;
+    height: 0.2rem;
+    background-color: #b3b3b3;
+    border-radius: 0.1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.footer-right {
+    height: 99%;
+    width: 26%;
+}
+.f-r-icon-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #b3b3b3;
+    padding-right: .5rem;
+}
+.f-r-play-span{
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #b3b3b3;
+    font-size: .4rem;
+}
+.volume-range{
+    width: 7rem;
+    height: .4rem;
+    background-color: #a90606;
+    border-radius: 0.1rem;
+}
+.fa-solid:hover{
+    color: white;
+    cursor: pointer;
+}

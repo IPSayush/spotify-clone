@@ -126,10 +126,3 @@ body {
     display: flex;
     gap: .5rem;
 }
-
-.footer{
-    height: 5rem;
-    width: 100vw;
-    background-color: #121212;
-    display: flex;
-}
